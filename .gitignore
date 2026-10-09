@@ -1,0 +1,45 @@
+## ---------- Visual Studio / .NET ----------
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## ---------- 生成结果 ----------
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.cache
+
+## ---------- NuGet ----------
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+
+## ---------- 测试 / 覆盖率 ----------
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+
+## ---------- IDE ----------
+.idea/
+.vscode/
+
+## ---------- 操作系统 ----------
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## ---------- 本地私有配置 ----------
+appsettings.local.json
+*.local.json
